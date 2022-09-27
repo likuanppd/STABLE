@@ -14,7 +14,9 @@ Paper Link: https://arxiv.org/abs/2207.00012
 - deeprobust
 
 ## Prepare Datasets
-First, you need to install Deeprobust.
+First, you need to install Deeprobust. Here we only provide the code of MetaAttack. If you need other attack methods (DICE, Random), you
+can refer to: https://github.com/DSE-MSU/DeepRobust/tree/master/examples/graph. Likewise, you can also prepare your own perturbed
+graphs you need in any way.
 ```python
 pip install deeprobust
 ```
@@ -70,7 +72,7 @@ which achieve the peak performance in our experiments.
 | cos      | 0.1  | 0.1 | 0.1 | 0.1 | 0.1 |
 
 ## Citation
-```python
+```
 @inproceedings{li2022reliable,
   title={Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN},
   author={Li, Kuan and Liu, Yang and Ao, Xiang and Chi, Jianfeng and Feng, Jinghua and Yang, Hao and He, Qing},
@@ -82,5 +84,5 @@ which achieve the peak performance in our experiments.
 
 ## Contact
 
-If you have any questions, please feel free to contact me with [likuan20s@ict.ac.cn](mailto:likuan20s@ict.ac.cn)
+If you have any questions, please feel free to contact me with [likuan20s@ict.ac.cn](mailto:likuan20s@ict.ac.cn).
 
