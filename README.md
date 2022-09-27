@@ -14,7 +14,7 @@ Paper Link: https://arxiv.org/abs/2207.00012
 - deeprobust
 
 ## Prepare Datasets
-First, you need to install Deeprobust. Here we only provide the code of MetaAttack. If you need other attack methods (DICE, Random), you
+First, you need to install Deeprobust to prepare the dataset. Here we only provide the code of MetaAttack. If you need other attack methods (DICE, Random), you
 can refer to: https://github.com/DSE-MSU/DeepRobust/tree/master/examples/graph. Likewise, you can also prepare your own perturbed
 graphs you need in any way.
 ```python
@@ -26,6 +26,7 @@ python generate_attack.py --dataset cora --ptb_rate 0.05
 ```
 
 ## Main Method
+After obtaining the perturbed graphs, you can run STABLE via
 ```python
 python main.py --dataset cora --ptb_rate 0.05 --alpha -0.3 --beta 2 --k 5 --jt 0.03 --cos 0.1
 ```
