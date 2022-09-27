@@ -22,7 +22,6 @@ parser.add_argument('--attack', type=str, default='mettack',  help='attack metho
 
 
 args = parser.parse_args()
-print(args.log)
 if args.log:
     logger = get_logger('./log/' + args.attack + '/' + 'ours_' + args.dataset + '_' + str(args.ptb_rate) + '.log')
 else:
