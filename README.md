@@ -1,4 +1,4 @@
-# STABLE
+# STABLE KDD2022
 
 This repo is for source code of KDD 2022 paper "Reliable Representations Make A Stronger Defender:
 Unsupervised Structure Refinement for Robust GNN".
