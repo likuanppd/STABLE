@@ -13,10 +13,10 @@ Paper Link: https://arxiv.org/abs/2207.00012
 - numpy == 1.20.1
 - deeprobust
 
-## Prepare Datasets
-First, you need to install Deeprobust to prepare the dataset. Here we only provide the code of MetaAttack. If you need other attack methods (DICE, Random), you
-can refer to: https://github.com/DSE-MSU/DeepRobust/tree/master/examples/graph. Likewise, you can also prepare your own perturbed
-graphs you need in any way.
+## Perturbed Datasets
+First, you need to install Deeprobust to prepare the perturbed dataset. Here we only provide the example of MetaAttack. 
+If you need graphs attacked by other methods (DICE, Random), you can refer to: https://github.com/DSE-MSU/DeepRobust/tree/master/examples/graph. 
+Likewise, you can also prepare your own perturbed graphs you need in any way.
 ```python
 pip install deeprobust
 ```
@@ -33,8 +33,8 @@ python main.py --dataset cora --ptb_rate 0.05 --alpha -0.3 --beta 2 --k 5 --jt 0
 
 ## Hyper-parameters
 Though we have five hyper-parameters, they can be easily tuned according to the perturbation rate. 
-Here we provide a guidance and the  specific values
-which achieve the peak performance in our experiments.
+Here we provide guidance and the specific values
+which achieve the peak performance against MetaAttack in our experiments.
 
 - **alpha:** proportional to the perturbation rate
 - **beta:** fixed at 2
@@ -82,6 +82,7 @@ which achieve the peak performance in our experiments.
   year={2022}
 }
 ```
+
 
 ## Contact
 
